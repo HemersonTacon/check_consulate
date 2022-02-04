@@ -10,7 +10,7 @@ Pode ser que funcione para o do Faro ou o do Porto. Se sim, me informe por favor
 
 Execute `pip install -r requirements.txt` para instalar as depedências.
 
-#### Quick and dirty: 
+#### Quickstart: 
  - salve o cookie da sua sessão em um arquivo `cookie.txt`. Esse arquivo deve estar na mesma pasta do script;
  - substitua o id do processo no script [nessa linha](https://github.com/HemersonTacon/check_consulate/blob/main/check_consulate.py#L111);
  - execute `python check_consulate.py 1` num terminal para checar de 1 em 1 minuto.
