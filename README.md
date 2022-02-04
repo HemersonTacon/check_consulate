@@ -44,7 +44,7 @@ Após [logar no sistema do consulado](https://ec-lisboa.itamaraty.gov.br/login),
 
 Uma lista de mensagens e significado. Essa lista pode ficar desatualizada em caso de alterações no site do consulado.
 
- - `No slots available."`: não há horários disponíveis para o serviço (mensagem mais comum que você verá, infelizmente);
+ - `No slots available.`: não há horários disponíveis para o serviço (mensagem mais comum que você verá, infelizmente);
  - `Looks like there are spots available!`: dia de sorte, há vagas disponíveis para o seu serviço. 
  Um sinal sonoro (beep) será emitido intermitentemente durante aproximadamente 2 minutos e meio.
  - `Unexpected content on response. Update cookie and try again.`: muito provavelmente seu cookie expirou. 
