@@ -14,14 +14,15 @@ Execute `pip install -r requirements.txt` para instalar as depedências.
  - salve o cookie da sua sessão em um arquivo `cookie.txt`. Esse arquivo deve estar na mesma pasta do script;
  - substitua o id do processo no script [nessa linha](https://github.com/HemersonTacon/check_consulate/blob/main/check_consulate.py#L111);
  - execute `python check_consulate.py 1` num terminal para checar de 1 em 1 minuto.
- - ou passe o id manualmente com a opção `-id`, exemplo: `python check_consulate.py 1 -id L3TR4SeNUM3R05do1D`;
+ - ou passe o id manualmente com a opção `-id`, exemplo: 
+ `python check_consulate.py 1 -id L3TR4SeNUM3R05do1D`
  
 Detalhes de como obter o id do processo e o cookie abaixo.
 
 ### ID do processo
 
 Após [logar no sistema do consulado](https://ec-lisboa.itamaraty.gov.br/login), selecione o processo para qual deseja monitorar as vagas.
-O id do processo é compostos por números e letras estará no fim da URL após "id=".
+O id do processo é composto por números e letras, e estará no fim da URL após "id=".
 
 ![id do processo](img/process_id.png)
 
